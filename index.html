@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <table >
+        <thead>
+            <th colspan="4"><input disabled="true" id="display"  /></th>
+        </thead>
+        <tbody>
+            <td><button class="funcao" onclick="limpar()" value="AC" >AC</button> </td>
+            <td><button class="funcao" onclick="inversor()" >+/-</button> </td>
+            <td><button class="funcao" onclick="porcentagem()" >%</button> </td>
+            <td><button class="funcao" onclick="divisao()" >/</button> </td>
+                
+        </tbody>
+        <tbody>
+                <td ><button class="numero"  onclick="addNumero(7)" >7</button> </td>
+                <td><button  class="numero" onclick="addNumero(8)" >8</button> </td>
+                <td><button  class="numero" onclick="addNumero(9)" >9</button> </td>
+                <td><button  class="funcao" onclick="mult()" >X</button> </td>
+        </tbody>
+        <tbody>
+                <td><button  class="numero"onclick="addNumero(4)" >4</button> </td>
+                <td><button  class="numero"onclick="addNumero(5)" >5</button> </td>
+                <td><button  class="numero"onclick="addNumero(6)" >6</button> </td>
+                <td><button class="funcao" onclick="sub()" >-</button> </td>
+        </tbody>
+        <tbody>
+                <td><button  class="numero"onclick="addNumero(1)" >1</button> </td>
+                <td><button  class="numero"onclick="addNumero(2)" >2</button> </td>
+                <td><button  class="numero"onclick="addNumero(3)" >3</button> </td>
+                <td><button  class="funcao" onclick="adicao()" >+</button> </td>
+        </tbody>
+        <tbody>
+                <td colspan="2"  ><button onclick="addNumero(0)" class="numero zero" >0</button> </td>
+                <td><button onclick="addNumero('.')" onclick="" >.</button></td>
+                <td><button onclick="mostrarResulatado()" >=</button></td>
+                
+        </tbody>
+
+    </table>
+
+    <script src="./calculadora.js"></script>
+</body>
+</html>

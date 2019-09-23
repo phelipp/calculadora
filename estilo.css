@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    background: #ccc;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 4px 4px 5px #ccc;
+}
+ table #display{
+     margin: 5px 2px;
+     padding: 4px 0px;
+     box-shadow: 2px 2px 5px #ddd;
+     border-color: aqua; 
+ }
+
+button {
+    width: 80px;
+    height: 70px;
+    border: none;
+    margin: 0;
+}
+ .zero
+{
+    width: 100%;
+}
+.numero {
+    background: rgba(100, 252, 252, 0.836);
+}
+.numero:hover{
+    background:rgba(57, 255, 255, 0.836);
+}
+.funcao{
+    background:  rgba(57, 255, 255, 0.836);
+}
+.funcao:hover{
+    background:  rgba(18, 255, 255, 0.836);
+
+}
